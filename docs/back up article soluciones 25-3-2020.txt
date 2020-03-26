@@ -1,0 +1,108 @@
+<article id="work">
+								<!-- <h2 class="major">Soluciones</h2> -->
+
+<!-- side nav animado push content  -->
+								<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Soluciones</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<!-- side nav animado push content  -->
+
+
+								<div class="">
+
+
+								<span class="image main">
+									<img id="imagen" src="images/pic01.jpg"></img>
+								</span>
+
+								<div class="vertical-menu">
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('estandar').style.display='inherit';"
+											 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('estandar').style.display='none';">Estandarización de recetas</a>
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('menu').style.display='inherit';"
+					 						 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('menu').style.display='none';">Análisis funcional del menú</a>
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('explicacion').style.visibility='visible';"
+										 	 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('explicacion').style.visibility='hidden';">Cantidad de personal</a>
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('explicacion').style.visibility='visible';"
+			 				 				 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('explicacion').style.visibility='hidden';">Equipamiento necesario</a>
+
+
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('explicacion').style.visibility='visible';"
+				 				 			 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('explicacion').style.visibility='hidden';">Diseño de cocina</a>
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('explicacion').style.visibility='visible';"
+					 				 		 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('explicacion').style.visibility='hidden';">Circuitos de circulación</a>
+									  <a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('explicacion').style.visibility='visible';"
+					 				 		 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('explicacion').style.visibility='hidden';">Stock de mercadería</a>
+										<a onmouseover="document.getElementById('imagen').src='images/pic03.jpg'; document.getElementById('explicacion').style.visibility='visible';"
+											 onmouseout="document.getElementById('imagen').src='images/pic01.jpg'; document.getElementById('explicacion').style.visibility='hidden';">Orden de compra</a>
+								</div>
+</div>
+								<p class="explicacionsoluciones" id="estandar" style="display:none;">
+									Alejandro inició su carrera como cocinero en el año 2010, dejando en segundo plano temporalmente su título de Ingeniero.<br>
+
+									Desde hace tres años se dedica a la asesoía gastronómica, en donde la formación metódica previa resurge aportando herramientas de análisis, cálculo y organización que se aplican al asesoramiento enfocándolo con más precisión a al funcionalidad.<br>
+
+									Se combinan siempre estas disciplinas con su preferencia por conocer distintas culturas y como resultado vivió en varios países, involucrándose en sus hábitos, costumbres y lenguas.<br>
+								</p>
+								<p class="explicacionsoluciones" id="menu" style="display:none;">
+									Asdalñsañldksañlkdñlsadñlaskdñlsakdñkdlñasklñdatalists disciplinas con su preferencia por conocer distintas culturas y como resultado vivió en varios países, involucrándose en sus hábitos, costumbres y lenguas.<br>
+								</p>
+
+
+								<!-- botones sencillos sueltos pero con borde que odio -->
+							  <!-- <button class="botonsoluciones" style="border:none" onmouseover="document.getElementById('imagen').src='images/pic02.jpg'" onmouseout="document.getElementById('imagen').src='images/pic01.jpg'">Diseño de cocina</span><br>
+								<button class="botonsoluciones" onmouseover="document.getElementById('imagen').src='images/pic03.jpg'" onmouseout="document.getElementById('imagen').src='images/pic01.jpg'">Circuitos de trabajo</span><br>
+								<button class="botonsoluciones" onmouseover="document.getElementById('imagen').src='images/
+
+
+								.jpg'" onmouseout="document.getElementById('imagen').src='images/pic01.jpg'">Equilibrio de menú</span><br> -->
+								<!-- botones sencillos sueltos pero con borde que odio -->
+
+							<!-- <script>
+
+							function mostrarover(direccionfoto){
+								var x=document.getElementById(imagenquecambia);
+								x.src=(direccionfoto);
+							}
+
+							function myFunctiondis(foto) {
+								  var x = document.getElementById(foto);
+								  if (x.style.display === "none") {
+								    x.style.display = "block";
+								  } else {
+								    x.style.display = "none";
+								  }
+								}
+
+								function myFunctionvis(foto) {
+									var x = document.getElementById(foto);
+									if (x.style.visibility === "hidden") {
+										x.style.visibility = "visible";
+									} else {
+										x.style.visibility = "hidden";
+									}
+								}
+								</script> -->
+							</article>
+						<!-- About -->
