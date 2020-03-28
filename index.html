@@ -6,9 +6,7 @@
 	<head>
 		<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
 		<title>Alejandro Kakias Website</title>
-
-					<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+					<link rel="stylesheet" href="../assets/css/sw3.css">
 					<style>
 					body {
 					  font-family: "Lato", sans-serif;
@@ -42,6 +40,8 @@
 
 					.sidenav a:hover {
 					  color: #f1f1f1;
+						background-color: rgba(255, 255, 255, 0.075);
+
 					}
 
 					.sidenav .closebtn {
@@ -313,14 +313,14 @@
 
 	<body class="is-preload">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="../assets/css/sw3.css">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span> <img src="images/alecara.jpg" class="w3-circle" width=100% /></span>
+							<span> <img style="border-radius: 100%" src="images/alecara.jpg" class="w3-circle" width=100% /></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -386,33 +386,10 @@
 								</script>
 							</article>
 
-<!--  reproduce textos en orden
-
-<script>
-
-        var example = ['Chef, apasionado por la organización y los detalles.', 'Chef, transformando la organización y los detalles.', 'Ingeniero, transformando la organización y los detalles.', 'Ingeniero, apasionado por la organización y los detalles.'];
-
-        textSequence(0);
-        function textSequence(i) {
-
-            if (example.length > i) {
-                setTimeout(function() {
-                    document.getElementById("sequence").innerHTML = example[i];
-                    textSequence(++i);
-                }, 2500); // 1 second (in milliseconds)
-
-            } else if (example.length == i) { // Loop
-                textSequence(0);
-            }
-
-        }
-    </script> -->
-
 		<div id="sequence"></div>
 
-
-							<!-- </article> -->
-
+<!-- original -->
+					<!-- </article> -->
 						<!-- Work -->
 
 							<article id="work">
@@ -449,7 +426,7 @@ document.getElementById("texto").style.display = 'inherit';
 }
 </script>
 								<div id="mySidenav" class="sidenav">
-<!-- lista de botones del bav bar de servicios -->
+
 
 <!-- este boton es para cerrar con una cruz, pero no hace falta. -->
 								  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style.src=>&times;</a> -->
@@ -458,7 +435,7 @@ document.getElementById("texto").style.display = 'inherit';
 								  <a href="#" style="visibility:hidden">.</a>
 									<a href="#" style="visibility:hidden">.</a>
 
-								  <a href="javascript:void(0)"
+								  <a
 									onclick="closeNav();
 									change_text('Estandarización de recetas','Generar recetas escritas permite ahorrar en mercadería y entregar un producto de calidad sólida. Así como también permite acelerar y mejorar el entrenamiento de personal.');
 									document.getElementById('imagen').src='images/soluciones/recetas.jpg';
@@ -468,7 +445,7 @@ document.getElementById("texto").style.display = 'inherit';
 									>
 									Recetas</a>
 
-									<a href="javascript:void(0)"
+									<a
 									onclick="closeNav();
 									change_text('Análisis de producción del menú','Es importante verificar los espacios de almacenamiento y elaboración como también los horarios reales de producción. ¿Cuento con todo lo que necesito para producir este menú eficientemente para mis clientes?');
 									document.getElementById('imagen').src='images/soluciones/menu.jpg';
@@ -478,7 +455,7 @@ document.getElementById("texto").style.display = 'inherit';
 									>
 									Menú</a>
 
-									<a href="javascript:void(0)"
+									<a
 									onclick="closeNav();
 									change_text('Diseño funcional de cocina','Pensar y preveer los espacios de trabajo de cada zona, puesto, pase de platos, sectores de despacho y almacenamiento, etc. es vital para lograr agilidad y velocidad en el trabajo aprovechando al máximo los recursos involucrados.');
 									document.getElementById('imagen').src='images/bg.jpg';
@@ -488,7 +465,7 @@ document.getElementById("texto").style.display = 'inherit';
 									>
 									Diseño funcional de cocina</a>
 
-									<a href="javascript:void(0)"
+									<a
 									onclick="closeNav();
 									change_text('Circuitos de circulación','La conexión física entre los distintos ambiente de un restaurant estará determinada por la necesidad de circulación de trabajo de camareros, clientes en espera, entradas, salidas, colas de servicio y otras. Diagramar y combinar correctamente estos circuitos en el diseño aumenta las ventas reduciendo los tiempos de traslado, servicio y atención.');
 									document.getElementById('imagen').src='images/bg.jpg';
@@ -498,7 +475,7 @@ document.getElementById("texto").style.display = 'inherit';
 									>
 									Circuitos de circulación</a>
 
-									<a href="javascript:void(0)"
+									<a
 									onclick="closeNav();
 									change_text('Stocks y orden de compra','La creación de planillas útiles específicas hace que se agilice la toma de stock periódico, fijando una base de control elemental y eficaz para reducir costos por pérdidas o mal uso. Las órdenes de compra simples y diseñadas con criterio ayudan a los encargados a controlar las necesidades y asegurar que hay insumos para funcionar de manera correcta.');
 									document.getElementById('imagen').src='images/soluciones/stock.jpg';
@@ -508,26 +485,12 @@ document.getElementById("texto").style.display = 'inherit';
 									>
 									Stocks</a>
 									</div>
-
-
-
-
 <!-- side nav animado push content  -->
 
 
 
 								<h3 id="titulo" style="display:none;">Estandarización de recetas</h3>
-								<!-- <h3 id="title-estandar" style="display:none;">Estandarización de recetas</h3>
-								<h3 id="title-menu" style="display:none;">Análisis de producción del menú</h3>
-								<h3 id="title-personal" style="display:none;">Cantidad de personal</h3>
-								<h3 id="title-disenio" style="display:none;">Diseño funcional de cocina</h3>
-								<h3 id="title-Circuitos" style="display:none;">Circuitos de circulación</h3>
-								<h3 id="title-stockmerca" style="display:none;">Stock de mercadería y órdenes de compra</h3> -->
-
-								<span class="image main">
-									<img id="imagen" src="images/pic01.jpg"></img>
-								</span>
-
+								<span class="image main"> <img id="imagen" src="images/pic01.jpg"></img> </span>
 								<p class="explicacionsoluciones" id="texto" style="display:none;">
 
 								</p>
@@ -541,56 +504,15 @@ document.getElementById("texto").style.display = 'inherit';
 
 							<article id="about">
 								<h2 class="major">Trabajos</h2>
-
+<!-- original -->
 					<!-- imagen original de la web		 <span class="image main"><img src="images/pic03.jpg" class="w3-hover-sepia" alt="" /></span> -->
 
-						<!-- imagenes que desaparecen
-							 <img id="braavosbar" width="500" height="500" src="images/BRAAVOSbar.jpg" />
-								<img id="pentosituzaingo" width="500" height="500" src="images/PENTOSITUZAINGO.jpg" style="display:none"/> -->
-
-<!-- no se bien para que es. missing piece of code
-
-								img1.onclick = function(){
-        if (img2.style.display == "none"){
-        	img2.style.display = "block";
-        }
-        else {
-        	img2.style.display = "none";
-        }
-} -->
 									<span class="image main"/>
 									<div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&height=600&hl=es&q=+(Trabajos)&ie=UTF8&t=&z=2&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
 										<!-- <iframe src="https://www.google.com/maps/d/embed?mid=196ZCxKgShnj-_ib_reuPcIT3Rx58Ul95" width="640" height="480"></iframe> -->
 									</span>
 
-<!-- Image Map Generated by http://www.image-map.net/ -->
-<!--
-<span class="image main"><img src ="images/mapamundi.jpg" width ="100%" height ="100%" alt="Planets" usemap="#image-map" /> </span>
-<map name="image-map">
-    <area target="_blank" alt="The Ginger Pig " title="The Ginger Pig " onmouseover="writeText('Chef de partie - The Ginger Pig - Brighton - Inglaterra')" href="" coords="498,265,19" shape="circle">
-    <area target="_blank" alt="Grekos Ristorante" title="Grekos Ristorante" onmouseover="writeText('Director de Apertura - Ristorante Grekos - Roma - Italia')" href="" coords="537,304,15" shape="circle">
-</map> -->
-<!-- linea que llama al mapa en si del primer mapa -->
-<!-- <span class="image main"><img src ="images/mapamundi.jpg" width ="100%" height ="100%" alt="Planets" usemap="#planetmap" /> </span> -->
 
-								<!-- primer mapa no responsivo <map name="planetmap">
-								  <area shape="circle" coords="50,50,50" onmouseover="writeText('Chef de partie - The Ginger Pig - Brighton - Inglaterra')" target="_blank" href="https://thegingerpigpub.com/">
-								  <area shape="circle" coords="20,0,10" onmouseover="writeText('Jefe de cocina - Estepa - Patagonia - Argentina')" target ="_blank">
-									<area shape="circle" coords="40,0,10" onmouseover="writeText('Director de Apertura - Braavos Cervecería - Buenos Aires - Argentina')" target ="_blank" href="https://www.facebook.com/BraavosBar/">
-								  <area shape="circle" coords="60,0,10" onmouseover="writeText('Director de Apertura - Ristorante Grekos - Roma - Italia')" target ="_blank" href="https://www.facebook.com/grekosroma/">
-								</map> -->
-								<!-- <p id="desc">Recorra el mapa con el mouse para ver los sitios en donde trabajé.</p> -->
-
-<!--
-									<nav>
-										<ul  style="list-style-type:none;">
-											<li><a href="#intro">The Ginger Pig</a></li>
-												<img src="images/pic01.jpg" alt="HTML5 Icon" style="width:30px;">
-												<li><a href="#work">Villa Michelangelo</a></li>
-												<li><a href="#about">Estepa Patagonia</a></li> -->
-											<!--<li><a href="#elements">Elements</a></li>
-										</ul>
-									</nav>-->
 				 <!-- <P>ASESOR</P>
 					<NAV>
 						<UL   STYLE="LIST-STYLE-TYPE:NONE;">
